@@ -9,16 +9,20 @@
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Araceli Rollán Arrojo - Ayuntamiento de Madrid" .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Fernando Paris Roche - Ayuntamiento de Zaragoza" .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre convenios, es decir los acuerdos con efectos jurídicos adoptados por los ayuntamientos  con otras administraciones públicas, organismos públicos, entidades de derecho público, otros ayuntamientos, universidades públicas, o con sujetos de derecho privado para un fin común."@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of data on agreements, that is to say agreements with legal effects adopted by municipalities with other public administrations, public bodies, public law entities, other municipalities, public universities, or with private entities for a common purpose."@en .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/created> "2019-07-18" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio.owl"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/hasVersion> "1.0.0" .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/issued> "2019-07-18"@es .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/issued> "2020-10-01" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#preferredNamespacePrefix> "esconv" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#preferredNamespaceUri> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenios#" .
@@ -72,6 +76,10 @@
 # http://purl.org/dc/terms/bibliographicCitation
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
 # 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -582,17 +590,6 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#fechaSuscripcion> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de suscripción"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#fechaSuscripcion> <http://www.w3.org/2000/01/rdf-schema#label> "subscription date"@en .
 # 
-# http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#Convenio> .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#comment> "Agreement's identification character string"@en .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#comment> "String de caracteres que identifica al convenio."@es .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio" .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#label> "identificador"@es .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
-# 
 # http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
@@ -1042,4 +1039,4 @@ _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#label> "Date Issued"@en .
 # 
-# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

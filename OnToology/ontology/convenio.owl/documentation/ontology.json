@@ -539,6 +539,12 @@
     "@id" : "http://purl.org/dc/elements/1.1/identifier"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/date"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
@@ -748,6 +754,12 @@
   }, {
     "@language" : "es",
     "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
+  }, {
+    "@value" : "Araceli Rollán Arrojo - Ayuntamiento de Madrid"
+  }, {
+    "@value" : "Fernando Paris Roche - Ayuntamiento de Zaragoza"
+  }, {
+    "@value" : "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)"
@@ -768,6 +780,9 @@
     "@language" : "en",
     "@value" : "Vocabulary for the representation of data on agreements, that is to say agreements with legal effects adopted by municipalities with other public administrations, public bodies, public law entities, other municipalities, public universities, or with private entities for a common purpose."
   } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2019-07-18"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"
   } ],
@@ -779,8 +794,7 @@
     "@value" : "1.0.0"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
-    "@language" : "es",
-    "@value" : "2019-07-18"
+    "@value" : "2020-10-01"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@value" : "https://creativecommons.org/licenses/by/4.0"
@@ -1188,32 +1202,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid6"
-  } ]
-}, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Agreement's identification character string"
-  }, {
-    "@language" : "es",
-    "@value" : "String de caracteres que identifica al convenio."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#Convenio"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "identificador"
-  }, {
-    "@language" : "en",
-    "@value" : "identifier"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#instrumenta",
