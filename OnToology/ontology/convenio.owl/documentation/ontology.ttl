@@ -8,7 +8,9 @@
 
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> rdf:type owl:Ontology ;
                                                                 owl:versionIRI <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio/1.0.0> ;
-                                                                <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
+                                                                <http://purl.org/dc/elements/1.1/contributor> "Araceli Rollán Arrojo - Ayuntamiento de Madrid"@es ,
+                                                                                                              "Fernando Paris Roche - Ayuntamiento de Zaragoza"@es ,
+                                                                                                              "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
                                                                                                               "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es ,
                                                                                                               "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es ,
                                                                                                               "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es ,
@@ -23,10 +25,11 @@
                                                                 <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" ;
                                                                 <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre convenios, es decir los acuerdos con efectos jurídicos adoptados por los ayuntamientos  con otras administraciones públicas, organismos públicos, entidades de derecho público, otros ayuntamientos, universidades públicas, o con sujetos de derecho privado para un fin común."@es ,
                                                                                                         "Vocabulary for the representation of data on agreements, that is to say agreements with legal effects adopted by municipalities with other public administrations, public bodies, public law entities, other municipalities, public universities, or with private entities for a common purpose."@en ;
+                                                                <http://purl.org/dc/terms/created> "2019-07-18" ;
                                                                 <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                 <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio.owl"@es ;
                                                                 <http://purl.org/dc/terms/hasVersion> "1.0.0" ;
-                                                                <http://purl.org/dc/terms/issued> "2019-07-18"@es ;
+                                                                <http://purl.org/dc/terms/issued> "2020-10-01" ;
                                                                 <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0" ;
                                                                 :preferredNamespacePrefix "esconv" ;
                                                                 :preferredNamespaceUri "http://vocab.ciudadesabiertas.es/def/sector-publico/convenios#" ;
@@ -88,6 +91,11 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
 ###  http://purl.org/dc/terms/bibliographicCitation
 <http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty ;
                                                  rdfs:subPropertyOf <http://purl.org/dc/elements/1.1/identifier> .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty ;
+                                   rdfs:subPropertyOf <http://purl.org/dc/elements/1.1/date> .
 
 
 ###  http://purl.org/dc/terms/creator
@@ -621,18 +629,6 @@ xsd:date rdf:type rdfs:Datatype .
                              "subscription date"@en .
 
 
-###  http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador
-:identificador rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty ;
-               rdfs:domain :Convenio ;
-               rdfs:range xsd:string ;
-               rdfs:comment "Agreement's identification character string"@en ,
-                            "String de caracteres que identifica al convenio."@es ;
-               rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio" ;
-               rdfs:label "identificador"@es ,
-                          "identifier"@en .
-
-
 ###  http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto
 :objeto rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
@@ -1062,4 +1058,4 @@ Su nombre, que se especifica con la propiedad dct:title, es el proporcionado por
                                   rdfs:label "Date Issued"@en .
 
 
-###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
