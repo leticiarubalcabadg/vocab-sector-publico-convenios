@@ -25,8 +25,8 @@
      xmlns:espresupkos="http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/">
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio">
         <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio/1.0.0"/>
-        <dc:contributor>Araceli Rollán Arrojo - Ayuntamiento de Madrid</dc:contributor>
-        <dc:contributor>Fernando Paris Roche - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor xml:lang="es">Araceli Rollán Arrojo - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">Fernando Paris Roche - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor xml:lang="es">Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
