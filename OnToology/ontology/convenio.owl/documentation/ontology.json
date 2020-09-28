@@ -760,8 +760,6 @@
   }, {
     "@language" : "es",
     "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
-  }, {
-    "@value" : "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)"

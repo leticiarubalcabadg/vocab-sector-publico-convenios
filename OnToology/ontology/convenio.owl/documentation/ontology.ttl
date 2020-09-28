@@ -18,8 +18,7 @@
                                                                                                               "Red.es"@es ,
                                                                                                               "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es ,
                                                                                                               "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es ,
-                                                                                                              "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es ,
-                                                                                                              "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" ;
+                                                                                                              "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es ;
                                                                 <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" ,
                                                                                                           "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" ;
                                                                 <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/sector-publico/convenio"@es ;
