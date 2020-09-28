@@ -729,6 +729,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@language" : "es",
+    "@value" : "Araceli Rollán Arrojo - Ayuntamiento de Madrid"
+  }, {
+    "@language" : "es",
+    "@value" : "Fernando Paris Roche - Ayuntamiento de Zaragoza"
+  }, {
+    "@language" : "es",
     "@value" : "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"
   }, {
     "@language" : "es",
@@ -754,10 +760,6 @@
   }, {
     "@language" : "es",
     "@value" : "Víctor Morlán Plo - Ayuntamiento de Zaragoza"
-  }, {
-    "@value" : "Araceli Rollán Arrojo - Ayuntamiento de Madrid"
-  }, {
-    "@value" : "Fernando Paris Roche - Ayuntamiento de Zaragoza"
   }, {
     "@value" : "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"
   } ],

@@ -15,6 +15,8 @@
      xmlns:rdf-schema="https://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio">
         <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio/1.0.0"/>
+        <dc:contributor xml:lang="es">Araceli Rollán Arrojo - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">Fernando Paris Roche - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor xml:lang="es">Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
@@ -24,8 +26,6 @@
         <dc:contributor xml:lang="es">Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
         <dc:contributor xml:lang="es">Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
         <dc:contributor xml:lang="es">Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
-        <dc:contributor>Araceli Rollán Arrojo - Ayuntamiento de Madrid</dc:contributor>
-        <dc:contributor>Fernando Paris Roche - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor>María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
         <dc:creator>Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dc:creator>
