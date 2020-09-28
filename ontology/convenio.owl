@@ -47,7 +47,7 @@
         <dcterms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dcterms:creator>
         <dcterms:hasFormat xml:lang="es">http://vocab.ciudadesabiertas.es/def/sector-publico/convenio.owl</dcterms:hasFormat>
         <dcterms:hasVersion>1.0.0</dcterms:hasVersion>
-        <dcterms:issued>2020-09-30</dcterms:issued>
+        <dcterms:issued>2020-10-01</dcterms:issued>
         <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0</dcterms:license>
         <convenio:preferredNamespacePrefix>esconv</convenio:preferredNamespacePrefix>
         <convenio:preferredNamespaceUri>http://vocab.ciudadesabiertas.es/def/sector-publico/convenios#</convenio:preferredNamespaceUri>
