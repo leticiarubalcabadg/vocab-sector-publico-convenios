@@ -14,10 +14,10 @@
      xmlns:esadm="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
      xmlns:orges="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
      xmlns:skos1="http://www.w3.org/2008/05/skos#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:esconv="http://vocab.ciudadesabiertas.es/def/sector-publico/convenios#"
      xmlns:essubv="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#"
      xmlns:schema="https://schema.org/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:esconv1="http://vocab.ciudadesabiertas.es/def/sector-publico/esconv#"
      xmlns:convenio="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#"
      xmlns:esconvkos="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/"
@@ -40,11 +40,12 @@
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre convenios, es decir los acuerdos con efectos jurídicos adoptados por los ayuntamientos  con otras administraciones públicas, organismos públicos, entidades de derecho público, otros ayuntamientos, universidades públicas, o con sujetos de derecho privado para un fin común.</dc:title>
         <dc:title xml:lang="en">Vocabulary for the representation of data on agreements, that is to say agreements with legal effects adopted by municipalities with other public administrations, public bodies, public law entities, other municipalities, public universities, or with private entities for a common purpose.</dc:title>
-        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</terms:creator>
-        <terms:hasFormat xml:lang="es">http://vocab.ciudadesabiertas.es/def/sector-publico/convenio.owl</terms:hasFormat>
-        <terms:hasVersion>1.0.0</terms:hasVersion>
-        <terms:issued xml:lang="es">2019-07-18</terms:issued>
-        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0</terms:license>
+        <dcterms:created>2019-07-18</dcterms:created>
+        <dcterms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dcterms:creator>
+        <dcterms:hasFormat xml:lang="es">http://vocab.ciudadesabiertas.es/def/sector-publico/convenio.owl</dcterms:hasFormat>
+        <dcterms:hasVersion>1.0.0</dcterms:hasVersion>
+        <dcterms:issued>2020-09-30</dcterms:issued>
+        <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0</dcterms:license>
         <convenio:preferredNamespacePrefix>esconv</convenio:preferredNamespacePrefix>
         <convenio:preferredNamespaceUri>http://vocab.ciudadesabiertas.es/def/sector-publico/convenios#</convenio:preferredNamespaceUri>
         <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   
@@ -145,6 +146,14 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     
 
 
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator">
@@ -164,7 +173,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     <!-- http://purl.org/dc/terms/hasFormat -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat">
-        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#hasFormat-003"/>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#hasFormat-003"/>
         <rdfs:comment xml:lang="en">A related resource that is substantially the same as the pre-existing described resource, but in another format.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Has Format</rdfs:label>
@@ -192,7 +201,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued">
-        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#issued-003"/>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#issued-003"/>
         <rdfs:comment xml:lang="en">Date of formal issuance (e.g., publication) of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Date Issued</rdfs:label>
@@ -721,7 +730,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</terms:issued>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</dcterms:issued>
         <rdfs:comment xml:lang="es">Propiedad que identifica al adjudicatario de una subvención. No se especifica su rango, pues puede ser una persona o una organización. Es posible que en el futuro se especifique un rango específico (por ejemplo, org:Organization de la W3C Organization Ontology o foaf:Person de la FOAF Ontology).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion"/>
         <rdfs:label xml:lang="es">adjudicatario</rdfs:label>
@@ -890,21 +899,6 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     
 
 
-    <!-- http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador -->
-
-    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#identificador">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#Convenio"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">Agreement&apos;s identification character string</rdfs:comment>
-        <rdfs:comment xml:lang="es">String de caracteres que identifica al convenio.</rdfs:comment>
-        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/sector-publico/convenio</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="es">identificador</rdfs:label>
-        <rdfs:label xml:lang="en">identifier</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto -->
 
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#objeto">
@@ -958,7 +952,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</terms:issued>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</dcterms:issued>
         <rdfs:comment xml:lang="es">Fecha en la que se ha adjudicado la subvención</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion"/>
         <rdfs:label xml:lang="es">fecha de adjudicación</rdfs:label>
@@ -972,7 +966,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</terms:issued>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-20</dcterms:issued>
         <rdfs:comment xml:lang="es">Importe de la subvención concedida</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion"/>
         <rdfs:label xml:lang="es">importe</rdfs:label>
@@ -1293,7 +1287,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
     <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion -->
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion">
-        <terms:issued>2015-03-20</terms:issued>
+        <dcterms:issued>2015-03-20</dcterms:issued>
         <rdfs:comment xml:lang="es">Esta clase representa el concepto principal de esta ontología, que es el de la subvención que concede un municipio a alguna organización</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion"/>
         <rdfs:label xml:lang="es">Subvención</rdfs:label>
@@ -1305,7 +1299,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/District"/>
-        <terms:issued xml:lang="es">2014-03-28</terms:issued>
+        <dcterms:issued xml:lang="es">2014-03-28</dcterms:issued>
         <rdfs:comment xml:lang="es">Un distrito es cada una de las demarcaciones en que se subdivide un territorio o una población para distribuir y ordenar el ejercicio de los derechos civiles y políticos, o de las funciones públicas, o de los servicios administrativos [fuente: Diccionario de la Real Academia (DRAE) 2011]</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
         <rdfs:label xml:lang="es">Distrito</rdfs:label>
@@ -1317,7 +1311,7 @@ En esta versión se han definido clases y propiedades de acuerdo a los requisito
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Municipality"/>
-        <terms:issued>2014-03-28</terms:issued>
+        <dcterms:issued>2014-03-28</dcterms:issued>
         <rdfs:comment xml:lang="es">Un Municipio es el ente local definido en el artículo 140 de la Constitución española y la entidad básica de la organización territorial del Estado según el artículo 1 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local. Tiene personalidad jurídica y plena capacidad para el cumplimiento de sus fines. La delimitación territorial de Municipio está recogida del REgistro Central de Cartografía del IGN.
 Su nombre, que se especifica con la propiedad dct:title, es el proporcionado por el Registro de Entidades Locales del Ministerio de Política Territorial, en http://www.ine.es/nomen2/index.do</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/derecho/vocabulario"/>
@@ -1333,7 +1327,7 @@ Su nombre, que se especifica con la propiedad dct:title, es el proporcionado por
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
         <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-        <terms:issued>2008-05-xx</terms:issued>
+        <dcterms:issued>2008-05-xx</dcterms:issued>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
         <rdfs:label xml:lang="en">Concept</rdfs:label>
         <skos:definition xml:lang="en">An abstract idea or notion; a unit of thought.</skos:definition>
@@ -1344,7 +1338,7 @@ Su nombre, que se especifica con la propiedad dct:title, es el proporcionado por
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-        <terms:issued xml:lang="en">2008-05-xx</terms:issued>
+        <dcterms:issued xml:lang="en">2008-05-xx</dcterms:issued>
         <rdfs:comment xml:lang="en">A concept scheme may be defined to include concepts from different sources.</rdfs:comment>
         <rdfs:comment xml:lang="en">Thesauri, classification schemes, subject heading lists, taxonomies, &apos;folksonomies&apos;, and other types of controlled vocabulary are all examples of concept schemes.  Concept schemes are also embedded in glossaries and terminologies.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
