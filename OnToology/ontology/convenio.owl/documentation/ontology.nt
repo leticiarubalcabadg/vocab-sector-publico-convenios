@@ -1,5 +1,7 @@
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio/1.0.0> .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Araceli Rollán Arrojo - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Fernando Paris Roche - Ayuntamiento de Zaragoza"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es .
@@ -9,8 +11,6 @@
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Araceli Rollán Arrojo - Ayuntamiento de Madrid" .
-<http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "Fernando Paris Roche - Ayuntamiento de Zaragoza" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/sector-publico/convenio> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
