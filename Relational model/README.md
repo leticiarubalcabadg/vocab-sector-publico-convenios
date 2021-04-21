@@ -13,7 +13,13 @@
     - [CONVENIO_SUSC_ENTIDAD](#id8) 
     - [CONV_REL_FIRMANTE_ENTIDAD](#id9) 
     - [CONVENIO_ORGANIZATION](#id10)  
-  
+5.[TAXONOMÍAS SKOS](#id11)
+    - [TIPO-ENTIDAD](#id12)
+    - [MODALIDAD-CONVENIO](#id13)
+    - [TIPO-CONVENIO](#id14)
+    - [TIPO-VARIACION](#id15)
+
+
 
 
 
@@ -172,7 +178,7 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 [comment]: <!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!> 
 
 &nbsp;
-### CONVENIO_ORGANIZATION
+### CONVENIO_ORGANIZATION <a name="id10"></a>
 &nbsp;
 |     Campo                     |     Tipo            |     Ejemplo                                          |     Descripción                                                                                                           |     URL                                                                                                      |
 |-------------------------------|---------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -192,5 +198,80 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 |     postal_code               |     VARCHAR(200)    |     28076                                            |     Código postal.                                                                                                        |                                                                                                              |
 |     classification            |     VARCHAR(10)     |     asociacion-privada-sin-animo-de-lucro  (SKOS)    |     SKOS: http://vocab.linkeddata.es/page/datosabiertos/kos/economia/deuda-publica-financiera/tipo-entidad-prestamista    |                                                                                                              |
 |     portal_id                 |     VARCHAR(200)    |     Integración   con callejero. PORTAL0001          |     Id del portal.                                                                                                        |                                                                                                              |
+
+&nbsp;
+
+## TAXONOMÍAS SKOS <a name="id11"></a>
+&nbsp;
+### TIPO-ENTIDAD <a name="id12"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional
+&nbsp;
+Tesauro que recoge los grupos profesionales de la Administración General del Estado en España.
+|     Término    |     Label    |
+|----------------|--------------|
+|     A1         |     A1       |
+|     A2         |     A2       |
+|     B          |     B        |
+|     C1         |     C1       |
+|     C2         |     C2       |
+
+
+&nbsp;
+### MODALIDAD-CONVENIO <a name="id13"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico
+&nbsp;
+Tesauro que recoge los tipos de empleados públicos en España.
+|     Tipo                |     Subtipo 1                      |     Subtipo 2                                  |     Label                                              |
+|-------------------------|------------------------------------|------------------------------------------------|--------------------------------------------------------|
+|     funcionario         |                                    |                                                |     funcionario                                        |
+|                         |     funcionario-carrera            |                                                |     Funcionario de carrera.                            |
+|                         |     funcionario-interino           |                                                |     Funcionario   interino.                            |
+|                         |                                    |     funcionario-interino-acumulacion-tareas    |     Funcionario interino por acumulación de tareas.    |
+|                         |                                    |     funcionario-interino-programa              |     Funcionario interino por programa.                 |
+|                         |                                    |     funcionario-interino-sustitucion           |     Funcionario interino por sustitución.              |
+|                         |                                    |     funcionario-interino-vacante               |     Funcionario interino por plaza vacante.            |
+|     Personal-laboral    |                                    |                                                |     Personal Laboral.                                  |
+|                         |     personal-laboral-fijo          |                                                |     Personal Laboral Fijo.                             |
+|                         |     personal-laboral-indefinido    |                                                |     Personal laboral Indefinido.                       |
+|                         |     personal-laboral-temporal      |                                                |     Personal Laboral Temporal.                         |
+|                         |                                    |     personal-laboral-temporal-en-convenio      |     Personal Laboral Temporal en   Convenio.           |
+
+
+
+&nbsp;
+### TIPO-CONVENIO <a name="id14"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
+&nbsp;
+Tesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2.
+|     Tipo                               |     Label                              |
+|----------------------------------------|----------------------------------------|
+|     interadministrativo                |     Interadministrativo                |
+|     intraadministrativo                |     Intraadministrativo                |
+|     sujeto-de-derecho-internacional    |     Sujeto de derecho internacional    |
+|     sujeto-de-derecho-privado          |     Sujeto de derecho privado          |
+
+
+&nbsp;
+### TIPO-VARIACION <a name="id15"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-variacion
+&nbsp;
+Tesauro que recoge los tipos de variación que puede tener un convenio. Se refieren a las prórrogas, adendas o modificaciones a un convenio existente.
+|     Tipo            |     Label            |
+|---------------------|----------------------|
+|     adenda          |     Adenda.          |
+|     modificacion    |     Modificación     |
+|     prorroga        |     Prórroga         |
+
+
+
+&nbsp;
+
+
+
+
+
+
+
+
 
 
