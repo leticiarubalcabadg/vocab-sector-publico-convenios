@@ -206,37 +206,94 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 ## TAXONOMÍAS SKOS <a name="id11"></a>
 &nbsp;
 ### TIPO-ENTIDAD <a name="id12"></a>
-http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
 &nbsp;
-Tesauro que recoge los grupos profesionales de la Administración General del Estado en España.
-|     Término    |     Label    |
-|----------------|--------------|
-|     A1         |     A1       |
-|     A2         |     A2       |
-|     B          |     B        |
-|     C1         |     C1       |
-|     C2         |     C2       |
+Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio con el ayuntamiento.
+|     Tipo                                                   |     Subtipo                                                |     Label                                                   |
+|------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------|
+|     administracion-autonomica                              |                                                            |     Administración autonómica.                              |
+|                                                            |     consejeria                                             |     Consejería.                                             |
+|                                                            |     consorcio-autonomico                                   |     Consorcio autonómico.                                   |
+|                                                            |     entidad-publica-empresarial-autonomica                 |     Entidad pública empresarial autonómica.                 |
+|                                                            |     organismo-autonomo-e-instituto-autonomico              |     Organismo autónomo e instituto autonómico.              |
+|                                                            |     otros-organismos-publicos-de-titularidad-autonomica    |     Otros organismos públicos de titularidad autonómica.    |
+|                                                            |     sociedad-autonomica                                    |     Sociedad autonómica                                     |
+|     administracion-estatal                                 |                                                            |     Administración estatal.                                 |
+|                                                            |     agencia-estatal                                        |     Agencia estatal                                         |
+|                                                            |     entidad-publica-empresarial-estatal                    |     Entidad pública empresarial estatal                     |
+|                                                            |     ministerio                                             |     Ministerio                                              |
+|                                                            |     otros-organismos-publicos-del-estado                   |     Otros organismos públicos del Estado                    |
+|                                                            |     sociedad-estatal                                       |     Sociedad estatal                                        |
+|     administracion-local                                   |                                                            |     Administración local                                    |
+|                                                            |     area-metropolitana                                     |     Área metropolitana                                      |
+|                                                            |     ayuntamiento                                           |     Ayuntamiento                                            |
+|                                                            |     cabildo                                                |     Cabildo                                                 |
+|                                                            |     comarca                                                |     Comarca                                                 |
+|                                                            |     consell                                                |     Consell                                                 |
+|                                                            |     diputacion-provincial                                  |     Diputación provincial                                   |
+|                                                            |     entidad-local-menor                                    |     Entidad local menor                                     |
+|                                                            |     entidad-publica-empresarial-local                      |     Entidad pública empresarial local                       |
+|                                                            |     mancomunidad                                           |     Mancomunidad                                            |
+|                                                            |     organismo-autonomo-administrativo                      |     Organismo autónomo administrativo                       |
+|                                                            |     otros-organismos-de-titularidad-local                  |     Otros organismos de titularidad local                   |
+|                                                            |     sociedad-municipal                                     |     Sociedad municipal                                      |
+|                                                            |     vegueria                                               |     Veguería                                                |
+|     asociacion-privada-sin-animo-de-lucro                  |                                                            |     Asociación privada sin ánimo de lucro                   |
+|     centro-educativo-no-universitario                      |                                                            |     Centro educativo no universitario                       |
+|                                                            |     centro-privado                                         |     Centro privado                                          |
+|                                                            |     centro-privado-concertado                              |     Centro privado concertado                               |
+|                                                            |     centro-publico                                         |     Centro público                                          |
+|                                                            |     otros-centros-educativos                               |     Otros centros educativos                                |
+|     centro-educativo-universitario                         |                                                            |     Centro educatvo universitario                           |
+|                                                            |     instituto-universitario                                |     Instituto universitario                                 |
+|                                                            |     otra-entidad-universitaria.                            |     Otra entidad universitaria.                             |
+|                                                            |     universidad                                            |     Universidad                                             |
+|     colegio-asociacion-profesional-o-camara-de-comercio    |                                                            |     Colegio. Asociacion profesional o Cámara de comercio    |
+|     entidad-cultural-o-filantropica                        |                                                            |     Entidad cultural o filantrópica                         |
+|     entidad-deportiva                                      |                                                            |     Entidad deportiva                                       |
+|                                                            |     agrupacion-de-clubes                                   |     Agrupación de clubes                                    |
+|                                                            |     club-deportivo                                         |     Club deportivo                                          |
+|                                                            |     federacion-deportiva                                   |     Federación deportiva                                    |
+|                                                            |     otras-entidades-deportivas                             |     Otras entidades deportivas                              |
+|                                                            |     sociedad-anonima-deportiva                             |     Sociedad anónima deportiva                              |
+|     entidad-financiera                                     |                                                            |     Entidad financiera                                      |
+|     entidad-religiosa                                      |                                                            |     Entidad religiosa                                       |
+|     entidad-sin-personalidad-juridica-propia               |                                                            |     Entidad sin personalidad jurídica propia                |
+|                                                            |     comunidad-de-bienes                                    |     Comunidad de bienes                                     |
+|                                                            |     comunidad-de-herederos                                 |     Comunidad de herederos                                  |
+|                                                            |     comunidad-de-propietarios                              |     Comunidad de propietarios                               |
+|                                                            |     sociedad-civil                                         |     Sociedad civil                                          |
+|     fundacion                                              |                                                            |     Fundación                                               |
+|                                                            |     fundacion-de-derecho-privado                           |     Fundación de derecho privado                            |
+|                                                            |     fundacion-de-derecho-publico                           |     Fundación de derecho público                            |
+|     organizacion-no-gubernamental                          |                                                            |     Organización no gubernamental                           |
+|     otras-entidades-de-derecho-publico                     |                                                            |     Otras entidades de Derecho Público                      |
+|     otras-organizaciones-de-caracter-privado               |                                                            |     Otras organizaciones de carácter privado.               |
+|     otros                                                  |                                                            |     Otros                                                   |
+|     personas-fisicas                                       |                                                            |     Personas físicas                                        |
+|     sociedad-mercantil                                     |                                                            |     Sociedad mercantil                                      |
+|                                                            |     cooperativa                                            |     Cooperativa                                             |
+|                                                            |     otras-entidades-mercantiles                            |     Otras entidades mercantiles                             |
+|                                                            |     sociedad-anonima                                       |     Sociedad anónima                                        |
+|                                                            |     sociedad-limitada                                      |     Sociedad limitada                                       |
+
 
 
 &nbsp;
 ### MODALIDAD-CONVENIO <a name="id13"></a>
-http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio
 &nbsp;
-Tesauro que recoge los tipos de empleados públicos en España.
-|     Tipo                |     Subtipo 1                      |     Subtipo 2                                  |     Label                                              |
-|-------------------------|------------------------------------|------------------------------------------------|--------------------------------------------------------|
-|     funcionario         |                                    |                                                |     funcionario                                        |
-|                         |     funcionario-carrera            |                                                |     Funcionario de carrera.                            |
-|                         |     funcionario-interino           |                                                |     Funcionario   interino.                            |
-|                         |                                    |     funcionario-interino-acumulacion-tareas    |     Funcionario interino por acumulación de tareas.    |
-|                         |                                    |     funcionario-interino-programa              |     Funcionario interino por programa.                 |
-|                         |                                    |     funcionario-interino-sustitucion           |     Funcionario interino por sustitución.              |
-|                         |                                    |     funcionario-interino-vacante               |     Funcionario interino por plaza vacante.            |
-|     Personal-laboral    |                                    |                                                |     Personal Laboral.                                  |
-|                         |     personal-laboral-fijo          |                                                |     Personal Laboral Fijo.                             |
-|                         |     personal-laboral-indefinido    |                                                |     Personal laboral Indefinido.                       |
-|                         |     personal-laboral-temporal      |                                                |     Personal Laboral Temporal.                         |
-|                         |                                    |     personal-laboral-temporal-en-convenio      |     Personal Laboral Temporal en   Convenio.           |
+Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, procedimientos, régimen jurídico y los recursos aportados por ambas partes.
+|     Tipo                     |     Label                    |     Definition                                                                                                                                                                                                                   |
+|------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     cesion                   |     Cesión                   |     Convenio por el que se cede el uso, usufructo, instalación o   derecho a un tercero.                                                                                                                                         |
+|     colaboración             |     Colaboración             |     Convenio de colaboración entre la entidad local -o sus   entidades dependientes- y terceros, para el desarrollo conjunto de   actividades de cualquier tipo.                                                                 |
+|     encomienda-de-gestion    |     Encomienda de gestión    |     Convenio por el que la entidad local encarga por razones de   eficiencia u otras- a otros órganos de la misma o diferente administración, o   a terceros, la realización de trabajos materiales, técnicos o de servicios.    |
+|     marco                    |     Marco                    |     Convenio con un tercero, normalmente de carácter general y   amplio, que sirve de referencia para el desarrollo posterior de convenios   específicos en diversas materias.                                                   |
+|     otros                    |     Otros                    |     Cualquier convenio no incluido en el anterior.                                                                                                                                                                               |
+|     patrocinio               |     Patrocinio               |     Convenio cuyo objeto principal es el patrocinio de una   entidad, actividad, instalación o servicio.                                                                                                                         |
+|     protocolo                |     Protocolo                |     Convenio que se suscribe para el desarrollo de un   procedimiento o protocolo de actuación determinado entre las partes   firmantes.                                                                                         |
+|     subvencion-nominativa    |     Subvención nominativa    |     Corresponde al convenio que hace efectiva una subvención   nominativa que así figure en el presupuesto municipal o de las entidades   dependientes.                                                                          |
 
 
 
@@ -244,7 +301,7 @@ Tesauro que recoge los tipos de empleados públicos en España.
 ### TIPO-CONVENIO <a name="id14"></a>
 http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
 &nbsp;
-Tesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2.
+TTesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2.
 |     Tipo                               |     Label                              |
 |----------------------------------------|----------------------------------------|
 |     interadministrativo                |     Interadministrativo                |
