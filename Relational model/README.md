@@ -206,8 +206,8 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 ## TAXONOMÍAS SKOS <a name="id11"></a>
 &nbsp;
 ### TIPO-ENTIDAD <a name="id12"></a>
-http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
-&nbsp;
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad   
+
 Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio con el ayuntamiento.
 |     Tipo                                                   |     Subtipo                                                |     Label                                                   |
 |------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------|
