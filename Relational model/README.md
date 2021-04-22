@@ -281,8 +281,8 @@ Tesauro que recoge la clasificación de las entidades (organizaciones) que puede
 
 &nbsp;
 ### MODALIDAD-CONVENIO <a name="id13"></a>
-http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio
-&nbsp;
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio  
+
 Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, procedimientos, régimen jurídico y los recursos aportados por ambas partes.
 |     Tipo                     |     Label                    |     Definition                                                                                                                                                                                                                   |
 |------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -300,7 +300,7 @@ Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, pro
 &nbsp;
 ### TIPO-CONVENIO <a name="id14"></a>
 http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
-&nbsp;
+
 TTesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2.
 |     Tipo                               |     Label                              |
 |----------------------------------------|----------------------------------------|
@@ -312,8 +312,7 @@ TTesauro que recoge el tipo de convenio según las entidades que las suscriben d
 
 &nbsp;
 ### TIPO-VARIACION <a name="id15"></a>
-http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-variacion
-&nbsp;
+http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-variacion   
 Tesauro que recoge los tipos de variación que puede tener un convenio. Se refieren a las prórrogas, adendas o modificaciones a un convenio existente.
 |     Tipo            |     Label            |
 |---------------------|----------------------|
